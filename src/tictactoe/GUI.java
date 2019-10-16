@@ -125,7 +125,6 @@ public class GUI {
 	public boolean updateBoard(JButton button) {
 
 		if ((button.getText().equals("X")) || (button.getText().equals("O"))){
-			errorMessage();
 			return false;
 		}else {
 			String temp = button.getText();
@@ -146,7 +145,7 @@ public class GUI {
 		}
 	}
 
-	
+
 	public static JFrame createRedWins() {
 		JFrame frame = new JFrame("Tic-Tac-Toe");
 		frame.setLayout(new BorderLayout());
@@ -222,10 +221,7 @@ public class GUI {
 	}
 	
 	
-	private void errorMessage() {
-		System.out.println("Error");
-		
-	}
+
 	
 	
 }

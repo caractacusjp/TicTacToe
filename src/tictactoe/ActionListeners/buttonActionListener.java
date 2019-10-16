@@ -26,10 +26,7 @@ public class buttonActionListener extends GUI implements ActionListener {
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		boolean val = false;
-		while(!val) {
-			val = updateBoard(button);
-		}
+		updateBoard(button);
 		
 		
 	}

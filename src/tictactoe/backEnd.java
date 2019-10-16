@@ -49,4 +49,9 @@ public class backEnd extends GUI{
 		currentFrame.dispose();
 		currentFrame = GUI.createBlueWins();
 	}
+	
+	void errorMessage() {
+		System.out.println("Error");
+		
+	}
 }
