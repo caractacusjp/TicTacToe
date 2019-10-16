@@ -1,4 +1,4 @@
-package checkers;
+package tictactoe;
 
 public class Game {
 
